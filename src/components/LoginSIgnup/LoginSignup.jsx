@@ -9,11 +9,6 @@ const LoginSignup = () => {
   const [formName, setFormName] = useState("");
   const [formEmail, setFormEmail] = useState("");
   const [formPassword, setFormPassword] = useState("");
-  //   const [formData, setFormData] = useState({
-  //     username: "",
-  //     email: "",head
-  //     password: "",
-  //   });
 
   function handleChange(event) {
     if (event.target.name === "name") {
